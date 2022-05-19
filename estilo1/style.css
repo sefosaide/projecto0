@@ -1,0 +1,115 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face{
+    font-family: herd,Arial, Helvetica, sans-serif;
+    src: url(fonts/herder);
+}
+hr{
+    min-width: 320px;
+    max-width: 800px;
+    padding: 0px 9px;
+    margin: auto;
+}
+body{
+    background-color: gray;
+}
+header{
+    margin: auto;
+}
+header > h1{
+    margin: auto;
+    min-width: 320px;
+    max-width: 600px;
+    background-color:  #002dd1fd;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    width: 80px;
+    margin: 0px 15px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+}
+header > h4{
+    min-width: 320px;
+    max-width: 620px;
+    text-align: center;
+    background-color: #001975fd;
+    margin: auto;
+    color: white;
+    font-family: sans-serif;
+    
+}
+header nav {
+    min-width: 320px;
+    max-width: 600px;
+    background-color: #00186e;
+    padding: 10px 10px;
+    margin: auto;
+    text-align: center;
+}
+header nav a{
+    width: 170px;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+header nav a:hover{
+    background-color: #8888882a;
+    color: #000000;
+}
+main{
+    min-width: 320px;
+    max-width: 600px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+main article{
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 5px;
+    color: #2c2929;
+}
+h3{
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    text-align: center;
+    background-color: #000030;
+    color: white;
+}
+p{
+    text-indent: 20px;
+}
+img{
+    width: 100%;
+}
+p.img{
+    font-size: 19px;
+    margin: 10px 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+div{
+    background-color: #000a2e;
+    padding: 20px;
+    border-radius: 4px;
+}

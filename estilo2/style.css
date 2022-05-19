@@ -1,0 +1,114 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+hr{
+    min-width: 320px;
+    max-width: 800px;
+    padding: 0px 9px;
+    margin: auto;
+}
+body{
+    background-color: gray;
+}
+header{
+    margin: auto;
+}
+header > h1{
+    margin: auto;
+    min-width: 320px;
+    max-width: 600px;
+    background-color:  #002dd1fd;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    width: 80px;
+    margin: 0px 15px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+}
+header > h4{
+    min-width: 320px;
+    max-width: 620px;
+    text-align: center;
+    background-color: #001975fd;
+    margin: auto;
+    color: white;
+    font-family: sans-serif;
+    
+}
+header nav {
+    min-width: 320px;
+    max-width: 600px;
+    background-color: #00186e;
+    padding: 10px 10px;
+    margin: auto;
+    text-align: center;
+}
+header nav a{
+    width: 170px;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+header nav a:hover{
+    background-color: #8888882a;
+    color: #000000;
+}
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(218, 218, 218);
+}
+main > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 4px;
+    text-align: center;
+}
+main > article{
+    padding: 4px;
+}
+main > article > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 20px;
+}
+main > div{
+    background-color: #3c4a97;
+    padding: 20px;
+    border-radius: 6px;
+}
+main > div > a > img{
+    width: 100%;
+    padding-bottom: 10px
+}
+.img{
+    width: 100%;
+    padding-bottom: 10px
+}
+main > div > p{
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main > div > h3{
+    font-size: 19px;
+    font-weight: normal;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
